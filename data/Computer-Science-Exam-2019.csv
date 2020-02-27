@@ -1,0 +1,5 @@
+Id,Name,1_Description,1_MaxPoints,1_Points,2_Description,2_MaxPoints,2_Points,3_Description,3_MaxPoints,3_Points,4_Description,4_MaxPoints,4_Points,5_Description,5_MaxPoints,5_Points,6_Description,6_MaxPoints,6_Points,7_Description,7_MaxPoints,7_Points,8_Description,8_MaxPoints,8_Points
+12345,Lorem,Knowledge Question,10,9,Design and Modeling,16,16,Application Scenario,8,8,Programming Task,10,9,Analysis Task,6,6,Advanced Concepts,6,6,Transfer Question,6,5,Discussion,6,5
+54321,Ipsum,Knowledge Question,10,7,Design and Modeling,16,12,Application Scenario,8,6,Programming Task,10,9,Analysis Task,6,5,Advanced Concepts,6,6,Transfer Question,6,5,Discussion,6,6
+12543,Sit,Knowledge Question,10,2,Design and Modeling,16,6,Application Scenario,8,7,Programming Task,10,3,Analysis Task,6,3,Advanced Concepts,6,1,Transfer Question,6,6,Discussion,6,1
+32415,Dolor,Knowledge Question,10,6,Design and Modeling,16,10,Application Scenario,8,3,Programming Task,10,6,Analysis Task,6,0,Advanced Concepts,6,2,Transfer Question,6,1,Discussion,6,0
