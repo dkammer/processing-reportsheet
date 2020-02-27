@@ -2,7 +2,7 @@
 
 Small tool to create graphical reports from assessment points of exams or other student works. This is not a grading tool, it only shows points of a student in relation to the average points by the whole group.
 
-![Example Sheet](https://github.com/dkammer/processingreportsheet/raw/master/example.png)
+<img src="https://github.com/dkammer/processingreportsheet/raw/master/example.png" alt="Example Sheet" width="50%">
 
 ## Installation and Running
 
