@@ -58,7 +58,11 @@ void setup() {
           t.maxPoints = Float.parseFloat(row.getString(header));
         }
         if (header.contains("Punkte") || header.contains("Points")) {          
-          t.points = Float.parseFloat(row.getString(header));
+          try {
+            t.points = Float.parseFloat(row.getString(header));
+          } catch(Exception e) {
+            t.points = 0;
+          }
         }
       }
     }
@@ -91,7 +95,7 @@ void draw() {
     String key = entry.getKey();
     Map<Integer, Task> value = entry.getValue();
     if(singlePage) {
-      pdf = (PGraphicsPDF) createGraphics(appWidth, appHeight, PDF, key + "-"+ resultFile + ".pdf");
+      pdf = (PGraphicsPDF) createGraphics(appWidth, appHeight, PDF, "exports/" + key + "-"+ resultFile + ".pdf");
       pdf.beginDraw();
     } else if (pdf == null) {
       pdf = (PGraphicsPDF) g;
